@@ -9,6 +9,7 @@ function App() {
       <PersonCard lastName = "Smith" firstName = "John" age = {88} haircolor = "Brown"/>
       <PersonCard lastName = "Fillmore" firstName = "Millard" age = {50} haircolor = "Brown"/>
       <PersonCard lastName = "Smith" firstName = "Maria" age = {62} haircolor = "Brown"/>
+      
     </div>
   );
 }
