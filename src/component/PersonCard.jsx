@@ -20,7 +20,7 @@ class PersonCard extends Component {
         return(
             <div>
                 <h1>{ this.props.lastName }, { this.props.firstName }</h1>
-                <p>Age: { this.props.age }</p>
+                <p>Age: { this.props.age + this.state.clicked }</p>
                 <p>Hair Color: { this.props.haircolor }</p>
                 <button onClick={this.clickHandler}>{this.state.clicked} </button>
             </div>
